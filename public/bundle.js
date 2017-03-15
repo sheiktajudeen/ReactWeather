@@ -13312,9 +13312,18 @@ var React = __webpack_require__(4);
 
 var About = function About(props) {
   return React.createElement(
-    'h3',
+    'div',
     null,
-    'About component'
+    React.createElement(
+      'h3',
+      null,
+      'About component'
+    ),
+    React.createElement(
+      'p',
+      null,
+      'Welcome to the about page.'
+    )
   );
 };
 
@@ -13331,9 +13340,18 @@ var React = __webpack_require__(4);
 
 var Example = function Example(props) {
   return React.createElement(
-    'h3',
+    'div',
     null,
-    'Example component'
+    React.createElement(
+      'h3',
+      null,
+      'Example component'
+    ),
+    React.createElement(
+      'p',
+      null,
+      'Welcome to the Example page.'
+    )
   );
 };
 
